@@ -16,50 +16,37 @@ export default function Page() {
         />
       </a>
       <h1 className="mb-8 text-2xl font-medium tracking-tight">
-        Portfolio template!
+        Thông tin cá nhân
       </h1>
       <div className="prose prose-neutral dark:prose-invert">
-        <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS.
-        </p>
-        <p>
-          Nextfolio has everything you need for a portfolio: MDX blog, SEO, RSS,
-          Atom & JSON feeds, analytics, Tweet & YouTube embeds, KaTeX and {""}
-          <a
-            target="_blank"
-            href="https://github.com/1msirius/Nextfolio?tab=readme-ov-file#features"
-          >
-            more
-          </a>
-          .
-        </p>
-        <p>
-          Nextfolio is{" "}
-          <a href={socialLinks.github} target="_blank">
-            open-source
-          </a>{" "}
-          and fully customizable, making it easy to add more features.
-        </p>
-        <p>
-          <a
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F1msirius%2FNextfolio"
-            target="_blank"
-          >
-            Deploy
-          </a>{" "}
-          your Nextfolio site with Vercel in minutes and follow the set up
-          instructions in the{" "}
-          <a href="/blog/getting-started">Getting Started</a> post.
-        </p>
-        <p>
-          Built and maintained by{" "}
-          <a href="https://imsirius.xyz/" target="_blank">
-            Sirius
-          </a>
-          .
-        </p>
-      </div>
+  <p>
+    Tui là một lập trình viên làm việc tự do, chuyên về phát triển web và ứng dụng.
+  </p>
+  <p>
+    Tôi có kinh nghiệm với các công nghệ như Next.js, Angular, TailwindCSS, Node.js, và nhiều công nghệ khác. 
+    Đã từng thực hiện các dự án về e-learning, Ecommerce và tích hợp thanh toán trực tuyến.
+  </p>
+  <p>
+    Bạn có thể xem một số dự án của tôi trên{" "}
+    <a href={socialLinks.github} target="_blank">
+      GitHub
+    </a>{" "}
+    hoặc trên portfolio cá nhân.
+  </p>
+  <p>
+    Nếu bạn cần một trang web tối ưu, nhanh chóng và hiện đại, hãy liên hệ với tôi qua{" "}
+    <a href="mailto:tranducviet.eng@gmail.com">email</a> hoặc kết nối qua{" "}
+    <a href="https://behance.net/dcviet" target="_blank">Behance</a>.
+  </p>
+  <p>
+    Được xây dựng và duy trì bởi{" "}
+    <a href="https://www.portfolio-1.site" target="_blank">
+      dcviet
+    </a>
+    .
+  </p>
+</div>
+
     </section>
   );
 }
